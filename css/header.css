@@ -38,7 +38,7 @@ header {
 }
 
 .order-online {
-  grid-area: order;
+  width: 100%;
   font-size: x-large;
   font-weight: lighter;
   background-color: black;

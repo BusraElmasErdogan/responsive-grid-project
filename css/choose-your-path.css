@@ -50,3 +50,17 @@
   border: solid;
   font-size: larger;
 }
+
+@media screen and (min-width: 600px) {
+  .path-container {
+    display: flex;
+    flex-direction: row;
+   
+  }
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+    }
+}

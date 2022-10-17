@@ -37,3 +37,11 @@
   text-align: center;
   width: 220px;
 }
+
+@media screen and (min-width: 600px) {
+  .feature-container {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+  }
+}

@@ -17,10 +17,39 @@
     <link rel="stylesheet" href="css/juice-box.css" />
     <link rel="stylesheet" href="css/numbers.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <header>
+      <a href="./store.html"
+        ><button class="order-online">Order Online</button></a
+      >
+      <div class="header">
+        <img src="icons/karma-logo.svg" alt="Karma Logo" class="nav-logo" />
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-item-meet-karma">
+              <a class="nav-link-meet-karma" href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="">Store</a>
+            </li>
+            <li>
+              <a href="./fun.html">Fun</a>
+            </li>
+            <li>
+              <a href="#">Help</a>
+            </li>
+            <li>
+              <a href="">Login</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- <header>
       <div class="hamburger-menu">
         <img src="icons/hamburger-menu.svg" alt="hamburger-menu" />
       </div>
@@ -32,9 +61,8 @@
         Log In
         <img src="icons/log-in.svg" alt="log-in" />
       </div>
-
-      <button class="order-online">Order Online</button>
-    </header>
+      <a class='order-anchor' href="./store.html"><button  class="order-online">Order Online</button></a>
+    </header> -->
 
     <main>
       <section class="explore-flavors">
@@ -96,6 +124,7 @@
           </div>
         </div>
       </section>
+
       <section class="green-part">
         <div class="juice-bar-green">
           <img
@@ -118,38 +147,44 @@
       <section class="choose-your-path">
         <h1>Choose Your Wellness Path</h1>
         <div class="path-container">
-          <div class="juice">
-            <img src="img/orange-juice-photo.png" alt="orange-juice-photo" />
+          <div class="item">
+            <div class="juice">
+              <img src="img/orange-juice-photo.png" alt="orange-juice-photo" />
+            </div>
+            <div class="path">
+              <h2>Pure Hydration Cold Pressed Juices</h2>
+              <p>
+                I'm a paragraph. Click here to add your own text and edit me.
+                Let your users get to know you.
+              </p>
+            </div>
           </div>
-          <div class="path">
-            <h2>Pure Hydration Cold Pressed Juices</h2>
-            <p>
-              I'm a paragraph. Click here to add your own text and edit me. Let
-              your users get to know you.
-            </p>
+          <div class="item">
+            <div class="juice">
+              <img
+                src="img/redfruit-juice-photo.png"
+                alt="red-fruit-juice-photo"
+              />
+            </div>
+            <div class="path">
+              <h2>Soft & Creamy Organic Smoothies</h2>
+              <p>
+                I'm a paragraph. Click here to add your own text and edit me.
+                Let your users get to know you.
+              </p>
+            </div>
           </div>
-          <div class="juice">
-            <img
-              src="img/redfruit-juice-photo.png"
-              alt="red-fruit-juice-photo"
-            />
-          </div>
-          <div class="path">
-            <h2>Soft & Creamy Organic Smoothies</h2>
-            <p>
-              I'm a paragraph. Click here to add your own text and edit me. Let
-              your users get to know you.
-            </p>
-          </div>
-          <div class="juice">
-            <img src="img/green-juice-photo.png" alt="green-juice-photo" />
-          </div>
-          <div class="path">
-            <h2>The Power of Wellness Shots</h2>
-            <p>
-              I'm a paragraph. Click here to add your own text and edit me. Let
-              your users get to know you.
-            </p>
+          <div class="item">
+            <div class="juice">
+              <img src="img/green-juice-photo.png" alt="green-juice-photo" />
+            </div>
+            <div class="path">
+              <h2>The Power of Wellness Shots</h2>
+              <p>
+                I'm a paragraph. Click here to add your own text and edit me.
+                Let your users get to know you.
+              </p>
+            </div>
           </div>
         </div>
         <button class="view-all">View All</button>
